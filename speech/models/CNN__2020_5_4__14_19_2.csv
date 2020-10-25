@@ -1,0 +1,11 @@
+_rate,48000
+_chunk,2700
+_commandchunk,26100
+_channels,1
+_stftsegmentsize,900
+_overlappercent,90
+_stftfreqres,20
+_freqhighlim,10000
+_stft_lin_log_norm,1
+command_list,EIGHT,FIVE,FOUR,GO,ONE,SEVEN,SIX,STOP,THREE,TWO,UNRECOGNIZED
+_accuracy%,92.9
