@@ -5,7 +5,7 @@ Module with GUI for speech recognition CNN training and deployment
 
 
 ## Requirements
-Run pip install -r \__misc\requirements_ide.txt within virtual environment to install: 
+Run ```pip install -r \__misc\requirements_ide.txt``` within virtual environment to install: 
 spyder==5.1.5
 tensorflow==2.7.0
 keras==2.7.0
