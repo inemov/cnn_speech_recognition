@@ -927,7 +927,7 @@ class speech_recognition_listening(Thread):
                     data_stft_abs_norm_limited = data_stft_abs_norm[:int(self._freqhighlim/self._stftfreqres+1),:]
                     zero_array = np.zeros((data_stft_abs_norm_limited.shape[0]-int(8000/self._stftfreqres+1),data_stft_abs_norm_limited.shape[1]), dtype = np.float16)
                     data_stft_abs_norm_limited[int(8000/self._stftfreqres+1):,:] = zero_array
-                    filename = str(QtCore.QDir.currentPath() + "/speech/models/temp.csv")
+                    filename = str(QtCore.QDir.currentPath() + "/temp/temp.csv")
                     with open(filename, 'w', newline='') as csvfile:
                         data_stft_csv = csv.writer(csvfile, dialect='excel')
                         data_stft_csv.writerow(freq_series)
